@@ -1,0 +1,6 @@
+#!/bin/bash
+# usage: run cpp filename
+# ex. run ex
+
+make $1
+make test ARGS=$1
